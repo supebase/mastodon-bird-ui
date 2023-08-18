@@ -4512,3 +4512,25 @@ body.embed .detailed-status__display-avatar > img,
 .layout-single-column .column-link.active .fa-at {
     transform: none !important;
 }
+
+body.embed .detailed-status__link > .fa-retweet + span::after,
+.layout-single-column .detailed-status__link > .fa-retweet + span::after {
+  content: '';
+}
+
+body.embed .detailed-status__link > .fa-star + span::after,
+.layout-single-column .detailed-status__link > .fa-star + span::after {
+  content: '';
+}
+
+body.embed .detailed-status__meta .detailed-status__link .fa-star,
+body.embed .detailed-status__meta .detailed-status__link .fa-retweet,
+.layout-single-column .detailed-status__meta .detailed-status__link .fa-star,
+.layout-single-column .detailed-status__meta .detailed-status__link .fa-retweet {
+  display: unset;
+}
+
+body.embed .detailed-status__meta .animated-number,
+.layout-single-column .detailed-status__meta .animated-number {
+  color: unset;
+}
