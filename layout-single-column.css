@@ -42,7 +42,7 @@
   --color-black-coral: #5a5371;
   --color-profile-button-hover: #f1eff41a;
   --color-column-link-hover: #f7f7f91a;
-  --color-modal-overlay: #5b708366;
+  --color-modal-overlay: #09090be6;
   --color-dark: var(--color-brand-mastodon-dark);
   --color-thread-line: var(--color-brand-mastodon-threaded-line);
   --color-topaz: #dadaf3;
@@ -4573,4 +4573,8 @@ body.embed .detailed-status__meta .animated-number,
     text-indent: 0;
     display: block;
     line-height: initial;
+}
+
+.layout-single-column .modal-root__overlay {
+    backdrop-filter: grayscale(1);
 }
