@@ -4503,7 +4503,7 @@ body.embed .detailed-status__display-avatar > img,
 }
 
 .layout-single-column .column-link.active {
-    color: var(--color-light-text) !important;
+    color: var(--color-verified) !important;
 }
 
 .layout-single-column .column-link.active .fa-at {
