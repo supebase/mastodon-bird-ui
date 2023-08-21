@@ -4454,11 +4454,8 @@ body.embed .detailed-status__display-avatar > img,
 }
 
 .layout-single-column .column-link .fa-users::before, .layout-single-column .column-link.active .fa-users::before {
-    content: "\f0ac";
-}
-
-.layout-single-column .column-link .fa-users::before, .layout-single-column .column-link.active .fa-users::before {
-    content: "\f06c";
+    content: "\f0a0";
+    top: 0px;
 }
 
 .layout-single-column .column-link .fa-globe::before, .layout-single-column .column-link.active .fa-globe::before {
