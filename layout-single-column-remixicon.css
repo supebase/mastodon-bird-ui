@@ -4612,3 +4612,40 @@ body.embed .detailed-status__meta .animated-number,
   background-image: inherit;
   top: 12px;
 }
+
+.layout-single-column .conversation .fa-reply::before,
+.layout-single-column .notification__filter-bar .fa-mail-reply::before,
+.layout-single-column .notification__filter-bar .fa-reply::before,
+.layout-single-column .notification__filter-bar .fa-reply-all::before,
+.layout-single-column .detailed-status .fa-mail-reply::before,
+.layout-single-column .detailed-status .fa-reply::before,
+.layout-single-column .detailed-status .fa-reply-all::before,
+.layout-single-column .status .fa-mail-reply::before,
+.layout-single-column .status .fa-reply::before,
+.layout-single-column .status .fa-reply-all::before {
+    position: relative;
+    top: 0;
+    content: "\eb4d" !important;
+    font-family: 'remixicon';
+    font-size: 20px;
+}
+
+.layout-single-column .icon-button__counter {
+    font-size: 15px;
+    top: 0;
+    position: relative;
+}
+
+.layout-single-column .status__action-bar .icon-button::after {
+  background-color: unset;
+}
+
+.layout-single-column .status__action-bar {
+    margin-top: 16px;
+}
+
+.fa-sliders::before {
+    content: "\f2e1";
+    font-family: 'remixicon';
+    font-size: 19px;
+}
