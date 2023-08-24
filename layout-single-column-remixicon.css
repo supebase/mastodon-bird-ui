@@ -4679,3 +4679,11 @@ body.embed .detailed-status__meta .animated-number,
     font-family: 'remixicon';
     font-size: 19px;
 }
+
+.column-header>button {
+    color: var(--color-brand-mastodon-dim);
+}
+
+.column-header button.column-header__back-button {
+    font-size: 13px;
+}
