@@ -4608,3 +4608,11 @@ body.embed .detailed-status__meta .animated-number,
 .layout-single-column .modal-root__overlay {
     backdrop-filter: grayscale(1);
 }
+
+.column-header>button {
+    color: var(--color-brand-mastodon-dim);
+}
+
+.column-header button.column-header__back-button {
+    font-size: 13px;
+}
