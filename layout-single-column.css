@@ -4616,3 +4616,14 @@ body.embed .detailed-status__meta .animated-number,
 .column-header button.column-header__back-button {
     font-size: 13px;
 }
+
+.privacy-dropdown__option.active:hover {
+    background: #10b981;
+}
+.privacy-dropdown__option.active, .privacy-dropdown__option:hover {
+    background: #059669;
+}
+
+.layout-single-column .language-dropdown__dropdown__results__item:hover {
+  background-color: var(--color-accent-dark);
+}
