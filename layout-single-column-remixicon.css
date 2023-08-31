@@ -4698,3 +4698,13 @@ body.embed .detailed-status__meta .animated-number,
 .layout-single-column .language-dropdown__dropdown__results__item:hover {
   background-color: var(--color-accent-dark);
 }
+
+.layout-single-column .announcements__pagination .icon-button:hover i,
+.layout-single-column .server-banner__introduction,
+.layout-single-column .account__header__tabs__name h1 small,
+.layout-single-column .account .account__display-name,
+.layout-single-column .column-settings__section,
+.layout-single-column .setting-toggle__label,
+.layout-single-column .server-banner__number-label {
+  color: #71717a;
+}
