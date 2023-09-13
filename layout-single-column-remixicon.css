@@ -4483,7 +4483,7 @@ body.embed .detailed-status__display-avatar > img,
 
 .layout-single-column .column-link .fa-hashtag::before, .layout-single-column .column-link.active .fa-hashtag::before {
     font-family: "remixicon";
-    content: "\f0cd";
+    content: "\edfc";
     top: 0px;
 }
 
@@ -4496,7 +4496,7 @@ body.embed .detailed-status__display-avatar > img,
 
 .layout-single-column .column-link .fa-globe::before, .layout-single-column .column-link.active .fa-globe::before {
     font-family: "remixicon";
-    content: "\ec7a";
+    content: "\eaf9";
 }
 
 .layout-single-column .column-link .fa-at::before, .layout-single-column .column-link.active .fa-at::before {
