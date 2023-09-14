@@ -4964,3 +4964,11 @@ body.embed .detailed-status__meta .animated-number,
     color: var(--color-verified);
     content: inherit;
 }
+
+.layout-single-column .status__info::before {
+    content: "";
+}
+
+.layout-single-column .status .status__info {
+    justify-content: space-between;
+}
