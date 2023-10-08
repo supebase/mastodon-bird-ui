@@ -5157,3 +5157,9 @@ body.embed .detailed-status__meta .animated-number,
 .layout-single-column .notification__filter-bar button:hover,
 .layout-single-column .account__section-headline a:hover {
   background-color: var(--color-column-link-hover);
+}
+
+.autosuggest-input {
+    background: #09090b;
+    border-radius: 8px;
+}
